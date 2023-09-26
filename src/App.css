@@ -1,0 +1,18 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.page-container {
+    background-image: url('./assets/fondo1poke.png'); /* Cambia 'ruta_de_tu_imagen_de_fondo.jpg' a la ruta de tu imagen */
+    background-size: cover; /* Ajustar la imagen para cubrir todo el contenedor */
+    background-repeat: no-repeat; /* Evitar que la imagen se repita */
+    background-attachment: fixed; /* Fijar la imagen de fondo */
+    /* Otros estilos opcionales, como el color de texto, márgenes, relleno, etc. */
+    color: #fff; /* Ejemplo: texto en color blanco */
+    /* Agrega más estilos según tus preferencias */
+  }
+img {
+  width: 100%;
+  max-width: 300px;
+}
